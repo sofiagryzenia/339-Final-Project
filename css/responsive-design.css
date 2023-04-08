@@ -1,0 +1,28 @@
+.compile {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 100%;
+}
+
+.compile img {
+    width: 450px;
+    height: auto;
+}
+
+
+@media screen and (min-width: 768px) {
+    .compile {
+        display: grid;
+        margin: auto;
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .compile {
+        display: grid;
+        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        }
+}
