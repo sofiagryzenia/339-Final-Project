@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="image/png" href="images/tennis-things.png"/>
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Player Rankings</title>
+</head>
+<body>
+	<div class="skip"><a href="rankings.html">Skip to Main Content</a></div>
+	<header>
+		<header role="banner">
+			<img id="logo-main" src="images/tennis-things.png" width="200" alt="Logo Thing main logo">
+		  <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+			  <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
+				  <span class="sr-only">Toggle navigation</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+				</button>
+			  </div>
+			  <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href = "index.html" >Home</a></li>
+					<li><a href = "tournaments.html">Tournament Schedule 2023</a></li>
+					<li><a href = "GOATS.html">GOATs</a></li>
+                    <li class="active"><a href = "rivalries.html">Best Rivalries</a></li>
+				</ul>
+			  </div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		  </nav>
+		  <a href="#main" class="jump-to-content">Jump to Content</a>
+		  </header><!-- header role="banner" -->
+        <main class="container" id = "main">
+				
+				<h1>Iconic Tennis Rivalries</h1>
+                <div class="rivals">
+                    <p>Tennis is a sport that has produced some of the greatest rivalries in sporting history. From the epic battles between Bjorn Borg and John McEnroe to the modern-day rivalry between Rafael Nadal and Roger Federer, tennis fans have been treated to some unforgettable matches. One of the greatest rivalries in tennis history was between Pete Sampras and Andre Agassi. <img src="images/sampras-agassi.jpg_large"> The two Americans dominated the sport in the 1990s, with Sampras winning 14 Grand Slam titles and Agassi winning eight. Their contrasting styles and personalities made for an enthralling rivalry that captivated fans all over the world. </p>
+
+                    <p>Another legendary rivalry in tennis was between Martina Navratilova and Chris Evert. The two women played each other 80 times between 1973 and 1988, with Navratilova winning 43 of those matches. <img src="images/Navratilova-Evert.webp"> Navratilova's serve and volley game was a perfect counter to Evert's baseline game, and the two women played some of the most exciting matches in the history of the sport. Their rivalry helped to raise the profile of women's tennis and inspire a generation of young female players. </p>
+                            
+                    <p>Perhaps the most iconic tennis rivalry of all time is between Roger Federer and Rafael Nadal. The two players have met on 40 occasions, with Nadal winning 24 of those matches. <img src="images/nadal-federer.jpeg">Their contrasting styles of play, with Federer's elegant serve and volley game and Nadal's relentless baseline play, have produced some of the most memorable matches in tennis history. Their rivalry has transcended the sport and has become a symbol of sportsmanship and mutual respect. </p>
+                            
+                    <p>Another classic tennis rivalry was between Bjorn Borg and John McEnroe. The two players met 14 times between 1978 and 1981, with each player winning seven matches. <img src="images/Brody-Borg-McEngroe.webp"> Their contrasting personalities, with Borg's stoicism and McEnroe's fiery temper, made for an entertaining spectacle on the court. Their matches were often closely fought and packed with drama, with the 1980 Wimbledon final, widely regarded as one of the greatest matches in tennis history, being a standout example. </p>
+                            
+                    <p>In conclusion, tennis has produced some of the most iconic and memorable rivalries in the history of sport. The likes of Sampras vs Agassi, Navratilova vs Evert, Federer vs Nadal, and Borg vs McEnroe are etched into the annals of tennis history and have provided fans with some unforgettable moments. While each rivalry was unique, they all shared a common theme - two great champions battling it out for the right to be called the best.</p>
+            </div>
+                    
+</main>
+<footer>
+    <header>Sofia Gryzenia &copy; 2023</header>
+</footer>
+<script>
+	var jumpToContentLink = document.querySelector('.jump-to-content');
+	window.addEventListener('scroll', function() {
+	  if (window.pageYOffset > 100) {
+		jumpToContentLink.classList.add('visible');
+	  } else {
+		jumpToContentLink.classList.remove('visible');
+	  }
+	});
+  </script>
+</body>
+</html>

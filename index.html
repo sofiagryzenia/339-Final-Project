@@ -10,7 +10,6 @@
 	<link rel="shortcut icon" type="image/png" href="images/tennis-things.png"/>
 	<link rel="stylesheet" href="css/html5reset.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/responsive-design.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Tennis</title>
 </head>
@@ -20,29 +19,122 @@
 	<div class="skip"><a href="index.html">Skip to Main Content</a></div>
 	<!-- Header is a sematic tag page that aids readability -->
 	<header>
-		<img src="images/tennis-things.png" alt="logo" id = "logo">
-		<nav>
-			<ul>
-				<!-- Since I am on the index file I added class = action to the link to index. -->
-				<li class="active"><a href = "index.html" >Home</a></li>
-				<li><a href = "tournaments.html">Tournament Schedule 2023</a></li>
-				<li><a href = "rankings.html">GOATs of Tennis</a></li>
-			</ul>
-		</nav>
-		<!-- The h1 is a semantic tag that aids accessibility -->
-	</header>
+		<header role="banner">
+			<img id="logo-main" src="images/tennis-things.png" width="200" alt="Logo Thing main logo">
+		  <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+			  <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
+				  <span class="sr-only">Toggle navigation</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+			  </div>
+			  <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href = "index.html" >Home</a></li>
+					<li><a href = "tournaments.html">Tournament Schedule 2023</a></li>
+					<li><a href = "GOATS.html">GOATs</a></li>
+                    <li><a href = "rivalries.html">Best Rivalries</a></li>
+				</ul>
+			  </div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		  </nav>
+		  	<a href="#main" class="jump-to-content">Jump to Content</a>
+		  </header><!-- header role="banner" -->
+		  
     <main class="container" id = "main">
         <div class = overview>
+			<h1>Welcome to Tennis Things!</h1>
+		<p>A website dedicated to all things tennis! Bringing you the latest news and updates about upcoming tennis tournaments, iconic rivalries, and the greatest of all time (GOAT) players in the world of tennis.</p>
 
-		<p>This page contains everything you need to need to stay up-to-date on current tennis rankings and tournamrent schedules.</p>
+		<p>Stay up to date with the latest schedules, scores, and rankings of tennis tournaments around the world. From the Grand Slams to the smaller, but no less exciting, ATP and WTA events, we will keep you informed about all the action happening on the court. </p>
+			
+		<p>Relive the greatest moments in tennis history by exploring the iconic rivalries that have captured the hearts and minds of tennis fans around the world. From the epic battles between Rafael Nadal and Roger Federer to the fierce competition between Martina Navratilova and Chris Evert, we will take you on a journey through the most memorable rivalries in tennis history. </p>
+			
+		<p>And of course, no discussion of tennis would be complete without talking about the greatest players of all time. We will delve into the careers of legends like Roger Federer, Rafael Nadal, Serena Williams, and Steffi Graf to examine what makes them true GOATs in the world of tennis.  </p>
+			
+		<p>Join us as we celebrate the sport of tennis and all the excitement it has to offer. Whether you're a seasoned fan or a newcomer to the game, this website has something for everyone.</p>
+
+		<p> Tennis is a big part of my life so I wanted to create a fun websigte for others to connect with the sport! </p>
 	</div>
+	<div class="gallery">
+		<h2 class="heading-text">My <span>connections to tennis</span></h2>
+		<div class="image-gallery">
+			<div class="column">
+			  <div class="image-item">
+				<img src="images/hitting forehand.JPG" alt="Sofia Gryzenia (website creator) hitting a forehand" />
+				<div class="overlay"><span>Me hitting a forhand during a high school duel match</span></div>
+			  </div>
+			  <div class="image-item">
+				<img src="images/club tennis haloween.jpeg" alt="Michigan club tennis team haloween practice" />
+				<div class="overlay"><span>Me and several other Michigan club tennis team members during our haloween practice</span></div>
+			  </div>
+			  <div class="image-item">
+				<img src="images/seaholm tennis.jpg" alt="Seaholm tennis girls after winning D2 title" />
+				<div class="overlay"><span>Me and the other singles players on the High School Seahom Varsity Tennis Team after winning the Division 2 title</span></div>
+			  </div>
+			</div>
+			<div class="column">
+			  <div class="image-item">
+				<img src="images/serving.jpg" alt="Sofia Gryzenia (website creator) serving" />
+				<div class="overlay"><span>Serving during a match in the division 2 Tennis Finals when I was in high school</span></div>
+			  </div>
+			  <div class="image-item">
+				<img src="images/me&gaby.jpg" alt="Sofia Gryzenia (website creator) and her sister after winning tennis doubles tournament" />
+				<div class="overlay"><span>Me and my sister after winning a doubles tournament together in 2019</span></div>
+			  </div>
+			  <div class="image-item">
+				<img src="images/watching tennis.JPG" alt="Sofia Gryzenia (website creator) and her mom watching the Western & Southern Open" />
+				<div class="overlay"><span>Me and my mom watching the Western & Southern Open</span></div>
+			  </div>
+			  <div class="image-item">
+				<img src="images/umich tennis courts.jpeg" alt="University of Michigan- Varsity Tennis Center outdoor tennis courts" />
+				<div class="overlay"><span>The University of Michigan Varsity Tennis Center Courts where I practice twice a wek for the Michigan Club Tennis Team </span></div>
+			  </div>
+			</div>
+			<div class="column">
+			  <div class="image-item">
+				<img src="images/US open fam.JPG" alt="Sofia Gryzenia (website creator) and her mother and sister at the US open" />
+				<div class="overlay"><span>US Open 2016</span></div>
+			  </div>
+			  <div class="image-item">
+				<img src="images/OLCC.JPG" alt="Sofia Gryzenia (website creator) playing at the Orchard lake country club tennis courts" />
+				<div class="overlay"><span>The Orchard lake country club clay tennis courts I grew up playing on</span></div>
+			  </div>
+			  <div class="image-item">
+				<img src="images/hs team.JPG" alt="My high school team supporting me after I won a 3 hour long match during States" />
+				<div class="overlay"><span>My high school team supporting me after I won a 3 hour long match during States</span></div>
+			  </div>
+			  <div class="image-item">
+				<img src="images/tennis younger.png" alt="Me and my sister when we were around 5 years old with our tennis raquets" />
+				<div class="overlay"><span>Me and my sister before a tennis lesson when we were little</span></div>
+			  </div>
+			</div>
+		  </div>
+		</div>
 
 	</main>
+	
 
 	<!-- Footer is a sematic tag page that aids readability -->
 	<footer>
-		<p>Sofia Gryzenia &copy; 2023</p>
+		<header>Sofia Gryzenia &copy; 2023</header>
 	</footer>
+
+	<script>
+		var jumpToContentLink = document.querySelector('.jump-to-content');
+		window.addEventListener('scroll', function() {
+		  if (window.pageYOffset > 100) {
+			jumpToContentLink.classList.add('visible');
+		  } else {
+			jumpToContentLink.classList.remove('visible');
+		  }
+		});
+	  </script>
 
 </body>
 </html>
